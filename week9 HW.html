@@ -4,22 +4,37 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<style type="text/css">
+		label{font-family:monospace; color: brown;}
+		.class{
+			color:indigo;
+		}
+		.pattern{
+			background: lightgray;
+		}
+		#topic{
+			background: teal;
+		}
+		p {font-family: cursive;}
+		em {font-weight: bolder;}
+	</style>
+
 </head>
 <body>
 	<form>
 		<table border="1" style = "width:100%">
 			<tr>
-				<th colspan="3">About-110306052</th>
+				<th colspan="3" id="topic">About-110306052</th>
 			</tr>
 			<tr>
 				<td rowspan="3">
-					<img src="IMG_4399.JPG" width = "90" height = "150" alt = "not exist"><br>personal photo
+					<img src="IMG_4399.JPG" width = "90" height = "150" alt = "not exist"><br><p>personal photo</p>
 				</td>
-				<td colspan="2"><label>Name:
+				<td colspan="2" class="pattern"><label class="class">Name:</label>
 				<input name = "name" type = "text" size = "25" maxlength="30">
-				</label><br>
+				<br>
 
-				<label>Gender:</label>
+				<label class="class">Gender:</label>
 				<input type = "radio" name = Gender >Male
 				<input type = "radio" name = Gender >Female	
 				<input type = "radio" name = Gender >Other
@@ -27,7 +42,7 @@
 			</tr>
 
 			<tr>
-				<td><label>Country:
+				<td><label><em>Country:</em>
 					<select name="country">
 						<option value="Taipei">Taipei</option>
 						<option value="Tainan">Tainan</option>
@@ -37,14 +52,14 @@
 					</label>
 				</td>
 
-				<td><label>Birthday:
+				<td><em><label>Birthday:</em>
 							<input type="date">
 					</label>
 				</td>
 			</tr>
 			<tr>
 
-				<td colspan="2"><label>E-mail:
+				<td colspan="2" class="pattern"><label>E-mail:
 					<input name="name" type="text" size="25" maxlength="30">
 				</label>
 				</td>
@@ -75,15 +90,15 @@
 
 			<tr>
 				<td><label>Say something</label></td>
-				<td colspan="2">
+				<td colspan="2" class="pattern">
 					<textarea rows="5" cols="30" placeholder="Say something here."></textarea>
 				</td>
 			</tr>
 
 			<tr>
 				<td colspan="3">
-					<input type="submit" value = "提交">
-					<input type="Reset" value = "重設">
+						<input type="submit" value = "提交">
+						<input type="Reset" value = "重設">
 				</td>
 			</tr>
 	</form>	
