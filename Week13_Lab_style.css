@@ -1,0 +1,32 @@
+.c1{
+	background-color: #00FFFF;
+	color: #000000;
+	margin-right: 300px;
+	margin-left: 300px;
+
+}
+
+.c2{
+	background-color: #5F9EA0;
+	color: #000000;
+}
+
+.c3{
+	width: 600px;
+	background-color: #5F9EA0;
+	margin: 0 auto;
+	margin-top: 55px;
+	text-align: center;
+	font-family: comic sans ms;
+	color: #000000;
+	border: 5px #000000 solid;
+}
+
+.c4{
+	width: 480px;
+	font-size: 30px;
+}
+
+html{
+	background-color: #FFFF0;
+}
