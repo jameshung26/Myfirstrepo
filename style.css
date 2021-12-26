@@ -1,0 +1,13 @@
+.s1{
+	text-align: center;
+	background-color: #FFE4C4;
+}
+.s2{
+	background-color: #ccc;
+	margin: 80px auto 0;
+	transition: 0.5s;
+}
+
+.s2: hover{
+	background-color: #D2691E;
+}
